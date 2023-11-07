@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artesanias</title>
+    <style>
+        /* Estilos CSS aquí */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: black;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .producto {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .producto img {
+            max-width: 100%;
+        }
+
+        .precio {
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+       
+    /* Estilos CSS para la barra de búsqueda */
+    .barra-busqueda {
+            width: 400px; /* Ancho deseado */
+            padding: 10px; /* Espacio interno para mejorar la apariencia */
+            font-size: 18px; /* Tamaño de fuente deseado */
+        }
+
+        /* Estilos CSS para el botón de búsqueda */
+        .boton-busqueda {
+            font-size: 18px; /* Tamaño de fuente deseado */
+            padding: 10px 20px; /* Espaciado interno para mejorar la apariencia */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ARTESANIAS OTOMIES</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Fomentacion</a></li>
+                <li><a href="#">carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <style>
+        /* Estilos CSS para la barra de búsqueda */
+        .barra-busqueda {
+            width: 400px; /* Ancho deseado */
+            padding: 10px; /* Espacio interno para mejorar la apariencia */
+            font-size: 18px; /* Tamaño de fuente deseado */
+        }
+
+        /* Estilos CSS para el botón de búsqueda */
+        .boton-busqueda {
+            font-size: 18px; /* Tamaño de fuente deseado */
+            padding: 10px 20px; /* Espaciado interno para mejorar la apariencia */
+        }
+    </style>
+    
+    <form action="/buscar" method="get">
+       <center> <input type="text" id="busqueda" name="q" class="barra-busqueda" placeholder="Buscar productos"><input type="submit" value="Buscar" class="boton-busqueda"> </center>
+    </form>
+
+
+   
+
+
+<center><br>Introduccion</br></center>
+<br><br>Las artesanías otomíes son productos elaborados por el pueblo indígena otomí de México, 
+que se caracterizan por su belleza, colorido y significado cultural. Estas artesanías 
+reflejan la rica herencia y tradiciones de los otomíes, y a menudo se producen de manera
+ completamente artesanal, utilizando técnicas transmitidas de generación en generación.</br></br>
+
+
+
+    <section class="productos">
+        <article class="producto">
+
+
+<img src="producto1.jpg" alt="Producto1" width="200" height="200">
+            <h2>Producto 1</h2>
+            <p>Descripción</p>
+            <p class="precio">$19.99</p>
+            <button>Agregar carrito</button>
+        </article>
+        
+        <article class="producto">
+            <img src="producto2.jpg" alt="Producto2" width="200" height="200">
+            <h2>Producto 2</h2>
+            <p>Descripción</p>
+            <p class="precio">$24.99</p>
+            <button>Agregar carrito</button>
+        </article>
+
+<article class="producto">
+    <img src="producto3.jpg" alt="Producto3" width="200" height="200">
+            <h2>Producto 3</h2>
+            <p>Descripción</p>
+            <p class="precio">$100</p>
+            <button>Agregar carrito</button>
+        </article>
+
+<article class="producto">
+    <img src="producto4.jpg" alt="Producto4" width="200" height="200">
+            <h2>Producto 4</h2>
+            <p>Descripción</p>
+            <p class="precio">$111</p>
+            <button>Agregar carrito</button>
+        </article>
+
+<article class="producto">
+    <img src="producto5.jpg" alt="Producto5" width="200" height="200">
+            <h2>Producto 5</h2>
+            <p>Descripción</p>
+            <p class="precio">$100</p>
+            <button>Agregar carrito</button>
+        </article>
+
+
+        
+        <!-- Más productos aquí -->
+    </section>
+<br><br>
+    <footer>
+       <p>&copy; 2023 Venta de Artesanias y Fomentacion de la Cultura Otomi en Temoaya</p> 
+    </footer>
+</br></br>
+
+</body>
+</html>
